@@ -69,7 +69,7 @@ defmodule ExAws.STS.Mixfile do
   defp ex_aws() do
     case System.get_env("AWS") do
       "LOCAL" -> {:ex_aws, path: "../ex_aws"}
-      _ -> {:ex_aws, github: "hiivemarkets/ex_aws", branch: "atul/s3-select"}
+      _ -> {:ex_aws, github: "hiivemarkets/ex_aws", branch: "s3-select-changes"}
     end
   end
 end
